@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+:root {
+    --cream: #F9F1F0;
+    --rose: #FADCD9;
+}
+
  body{
     margin: 0;
 }
@@ -31,6 +36,7 @@
 #dog {
     height: 10vh;
     margin-right: 15px;
+    margin-left: 10px;
 }
 
 
@@ -73,22 +79,24 @@
 }
 
 .top {
-    background-color: red;
+    background-color: var(--cream);
+    
     width: 60vw;
     height: 35vh;
 
 }
 
 .middle {
-    background-color: blue;
+    background-color: var(--rose);
     width: 60vw;
     height:30vh;
+    
 
 
 }
 
 .bottom {
-    background-color: yellow;
+    background-color: var(--cream);
     width: 60vw;
     height: 35vh;
    
