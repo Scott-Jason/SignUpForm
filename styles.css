@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Minerva';
+    src: url(minerv.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ body{
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.rightPanel{
+    flex-direction: column;
+}
+
+.logo, .logotext{
+    position:absolute;
+    width: 40vw;
+    height: 15vh;
+    top: 25vh;
+    text-align: center;
+    
+    
+
+}
+
+#dog {
+    height: 10vh;
+    margin-right: 15px;
+}
+
+
+
+.logotext {
+    
+    font-family: Minerva;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    font-size: 6vh;
+    
+ 
+}
+
+.logo {
+    opacity: 15%;
+    background-color: black;
+
+}
+
+.opaque {
+    opacity: 100%;
+    color:green;
+}
+.leftPanel {
+    position: relative;
+    background-image: url(iceMountai.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    height:100vh;
+
+}
+
+.top {
+    background-color: red;
+    width: 60vw;
+    height: 35vh;
+
+}
+
+.middle {
+    background-color: blue;
+    width: 60vw;
+    height:30vh;
+
+
+}
+
+.bottom {
+    background-color: yellow;
+    width: 60vw;
+    height: 35vh;
+   
+}
