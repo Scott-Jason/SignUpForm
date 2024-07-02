@@ -87,7 +87,7 @@ button {
     width: 20vw;
     height: max(50px, 5vh);
     background-color: #EC9EC0;
-    border:none;
+    border: 5px solid pink;
     border-radius: 5px;
     font-family: Minerva;
     color:whitesmoke;
