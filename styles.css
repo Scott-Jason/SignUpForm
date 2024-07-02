@@ -39,7 +39,9 @@
     margin-left: 10px;
 }
 
-
+.top, .middle, .bottom {
+    color: #A91B60;
+}
 
 .logotext {
     
@@ -58,10 +60,76 @@
  
 }
 
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -10px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    
+}
+
+.leftForm, .rightForm {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
 .logo {
     opacity: 15%;
     background-color: black;
 
+}
+p{
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+button {
+    width: 20vw;
+    height: max(50px, 5vh);
+    background-color: #EC9EC0;
+    border:none;
+    border-radius: 5px;
+    font-family: Minerva;
+    color:whitesmoke;
+    font-size: 3vh;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 255, .2);
+    
+}
+h4{
+    padding: 0;
+    margin: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+input {
+    width: 20vw;
+    border: none;
+    border-radius: 5px;
+    outline: 1px solid rgb(5,5,5, 0.2)
+}
+
+input:focus:invalid{
+    outline: 1px solid red;
+}
+
+input:focus {
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 255, .2);
+}
+
+input:invalid{
+    outline: 1px solid rgb(255,0,0, 0.8);
+}
+
+
+.forms{
+    margin-bottom: 5px;
+    margin-left: 5vw;
+    justify-content: flex-start;
+    gap: 50px;
+    
 }
 
 .opaque {
@@ -78,11 +146,24 @@
 
 }
 
+span{
+    font-family: Minerva;
+}
+.text {
+    font-family: sans-serif;
+    font-weight: bolder;
+    position:absolute;
+    
+    left: 5vw;
+    right: 5vw;
+    bottom: 3vh;
+}
 .top {
     background-color: var(--cream);
-    
     width: 60vw;
+    position: relative;
     height: 35vh;
+    color: #A91B60;
 
 }
 
@@ -96,8 +177,12 @@
 }
 
 .bottom {
+
+    align-items: center;
     background-color: var(--cream);
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 60vw;
     height: 35vh;
-   
+
 }
